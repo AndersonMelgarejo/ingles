@@ -14,7 +14,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <div className="bg-gradient-to-r from-orange-400 to-orange-600 p-2 rounded-xl">
-              <img src="/paw.svg" alt="MovilMascota Logo" className="w-8 h-8" />
+              <img src="/ingles/paw.svg" alt="MovilMascota Logo" className="w-8 h-8" />
             </div>
             <div>
               <h1 className="text-2xl font-bold text-gray-800">

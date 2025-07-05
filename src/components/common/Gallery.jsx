@@ -16,7 +16,7 @@ const Gallery = () => (
   <section className="section-padding bg-white">
     <div className="container mx-auto px-4">
       <h2 className="section-title text-center text-orange-600 mb-8">
-        Galería de Mascotas Felices después del servicio
+        Gallery of Happy Pets after service
       </h2>
       <Swiper
         modules={[Autoplay]}
