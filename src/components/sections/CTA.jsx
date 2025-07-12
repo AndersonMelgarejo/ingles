@@ -4,7 +4,7 @@ import Button from '../ui/Button';
 
 const CTA = () => {
   return (
-    <section className="section-padding bg-gradient-to-r from-orange-400 to-orange-600 text-white">
+    <section className="section-padding bg-gradient-to-r from-greenpastel-300 to-greenpastel-500 text-white">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-6">
           Ready to pamper your pet?
@@ -17,14 +17,14 @@ const CTA = () => {
           <Button 
             variant="outline" 
             size="lg"
-            className="bg-white text-orange-600 hover:bg-gray-100 border-white"
+            className="bg-white text-greenpastel-600 hover:bg-gray-100 border-white"
           >
             📞 Call: {COMPANY_INFO.phone}
           </Button>
           <Button 
             variant="outline" 
             size="lg"
-            className="border-white text-white hover:bg-white hover:text-orange-600"
+            className="border-white text-white hover:bg-white hover:text-greenpastel-600"
           >
             🕒 Book appointment
           </Button>

@@ -7,17 +7,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        orange: {
-          50: '#fff7ed',
-          100: '#ffedd5',
-          200: '#fed7aa',
-          300: '#fdba74',
-          400: '#fb923c',
-          500: '#f97316',
-          600: '#ea580c',
-          700: '#c2410c',
-          800: '#9a3412',
-          900: '#7c2d12',
+        greenpastel: {
+          50: '#f3fdf6',
+          100: '#e0faea',
+          200: '#b6f3d2',
+          300: '#8beabb',
+          400: '#5edfa2',
+          500: '#36d48b',
+          600: '#1dbb72',
+          700: '#15915a',
+          800: '#106b43',
+          900: '#0a472d',
         }
       },
       fontFamily: {

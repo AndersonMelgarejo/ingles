@@ -4,15 +4,15 @@ import Button from '../ui/Button';
 
 const Hero = () => {
   return (
-    <section id="inicio" className="bg-gradient-to-br from-orange-50 via-white to-blue-50 section-padding">
+    <section id="inicio" className="bg-gradient-to-br from-greenpastel-50 via-white to-greenpastel-100 section-padding">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center">
           <div className="lg:w-1/2 mb-12 lg:mb-0">
-            <div className="bg-orange-100 text-orange-800 px-4 py-2 rounded-full inline-block mb-6">
+            <div className="bg-greenpastel-100 text-greenpastel-800 px-4 py-2 rounded-full inline-block mb-6">
               <span className="text-sm font-semibold">🐈 Professional mobile service</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-6 leading-tight">
-              Your pet <span className="text-orange-500">beautiful and clean</span> without leaving home
+              Your pet <span className="text-greenpastel-500">beautiful and clean</span> without leaving home
             </h1>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
               Professional grooming service with <strong>rigorous disinfection</strong> and <strong>comprehensive insurance</strong>. 
@@ -25,15 +25,15 @@ const Hero = () => {
             </div>
             <div className="flex items-center space-x-6 text-sm text-gray-600">
               <div className="flex items-center">
-                <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
+                <CheckCircle className="w-5 h-5 text-greenpastel-500 mr-2" />
                 <span>Insurance included</span>
               </div>
               <div className="flex items-center">
-                <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
+                <CheckCircle className="w-5 h-5 text-greenpastel-500 mr-2" />
                 <span>Certified staff</span>
               </div>
               <div className="flex items-center">
-                <CheckCircle className="w-5 h-5 text-green-500 mr-2" />
+                <CheckCircle className="w-5 h-5 text-greenpastel-500 mr-2" />
                 <span>Professional equipment</span>
               </div>
             </div>

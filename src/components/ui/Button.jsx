@@ -9,13 +9,13 @@ const Button = ({
   disabled = false,
   ...props 
 }) => {
-  const baseClasses = 'font-semibold transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2';
+  const baseClasses = 'font-semibold transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-greenpastel-500 focus:ring-offset-2';
   
   const variants = {
-    primary: 'bg-gradient-to-r from-orange-400 to-orange-600 text-white hover:from-orange-500 hover:to-orange-700 shadow-lg',
-    secondary: 'border-2 border-orange-400 text-orange-600 hover:bg-orange-50',
+    primary: 'bg-gradient-to-r from-greenpastel-300 to-greenpastel-500 text-white hover:from-greenpastel-400 hover:to-greenpastel-600 shadow-lg',
+    secondary: 'border-2 border-greenpastel-400 text-greenpastel-600 hover:bg-greenpastel-50',
     outline: 'border border-gray-300 text-gray-700 hover:bg-gray-50',
-    ghost: 'text-gray-600 hover:text-orange-500 hover:bg-orange-50'
+    ghost: 'text-gray-600 hover:text-greenpastel-500 hover:bg-greenpastel-50'
   };
 
   const sizes = {

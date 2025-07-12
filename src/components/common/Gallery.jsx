@@ -15,7 +15,7 @@ const images = [
 const Gallery = () => (
   <section className="section-padding bg-white">
     <div className="container mx-auto px-4">
-      <h2 className="section-title text-center text-orange-600 mb-8">
+      <h2 className="section-title text-center text-green-600 mb-8">
         Gallery of Happy Pets after service
       </h2>
       <Swiper

@@ -19,7 +19,7 @@ const Services = () => {
     <section id="servicios" className="section-padding bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="section-title">
+          <h2 className="section-title text-greenpastel-600">
             Our Services
           </h2>
           <p className="section-subtitle">

@@ -1,10 +1,10 @@
 import { CheckCircle, Bug, Scissors, Droplet, PawPrint, Dog } from 'lucide-react';
 export const 
 COMPANY_INFO = {
-  name: "MOVILMASCOTA",
+  name: "MOVIMASCOTA",
   tagline: "Mobile Grooming",
   phone: "+51 994 926 887",
-  email: "movilmascota@gmail.com",
+  email: "movimascota@gmail.com",
   address: "Lima, Peru",
   hours: "Mon - Sun: 8:00 AM - 6:00 PM"
 };

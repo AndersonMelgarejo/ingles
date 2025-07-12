@@ -19,8 +19,8 @@ const Stats = () => {
             return (
               <div key={index} className="text-center">
                 <div className="flex justify-center mb-3">
-                  <div className="bg-orange-100 p-3 rounded-full">
-                    <IconComponent className="w-6 h-6 text-orange-600" />
+                  <div className="bg-greenpastel-100 p-3 rounded-full">
+                    <IconComponent className="w-6 h-6 text-greenpastel-600" />
                   </div>
                 </div>
                 <div className="text-3xl font-bold text-gray-800 mb-1">{stat.number}</div>

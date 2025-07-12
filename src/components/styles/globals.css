@@ -23,11 +23,11 @@
   }
   
   .btn-primary {
-    @apply bg-gradient-to-r from-orange-400 to-orange-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-orange-500 hover:to-orange-700 transition-all shadow-lg;
+    @apply bg-gradient-to-r from-greenpastel-300 to-greenpastel-500 text-white px-6 py-3 rounded-lg font-semibold hover:from-greenpastel-400 hover:to-greenpastel-600 transition-all shadow-lg;
   }
   
   .btn-secondary {
-    @apply border-2 border-orange-400 text-orange-600 px-6 py-3 rounded-lg font-semibold hover:bg-orange-50 transition-colors;
+    @apply border-2 border-greenpastel-400 text-greenpastel-600 px-6 py-3 rounded-lg font-semibold hover:bg-greenpastel-50 transition-colors;
   }
   
   .card {

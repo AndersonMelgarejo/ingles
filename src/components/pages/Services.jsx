@@ -14,7 +14,7 @@ const iconMap = {
 const Services = () => (
   <section id="servicios" className="section-padding bg-gray-50">
     <div className="container mx-auto px-4">
-      <h2 className="section-title text-center text-orange-600 mb-8">
+      <h2 className="section-title text-center text-greenpastel-600 mb-8">
         Our Services
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -29,7 +29,7 @@ const Services = () => (
               <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
               <p className="text-gray-600 mb-4">{service.description}</p>
               {/* Features list removed */}
-              <div className="font-bold text-orange-600 mb-1">
+              <div className="font-bold text-greenpastel-600 mb-1">
                 {service.price}
               </div>
               <div className="text-xs text-gray-400 mb-2">

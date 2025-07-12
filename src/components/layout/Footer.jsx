@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center space-x-3 mb-4">
-              <div className="bg-gradient-to-r from-orange-400 to-orange-600 p-2 rounded-xl">
+              <div className="bg-gradient-to-r from-greenpastel-300 to-greenpastel-500 p-2 rounded-xl">
                 <Heart className="w-6 h-6 text-white" />
               </div>
               <div>
@@ -50,13 +50,13 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Follow us</h4>
             <div className="flex space-x-4">
-              <div className="w-8 h-8 bg-gray-700 rounded-full flex items-center justify-center hover:bg-orange-500 transition-colors cursor-pointer">
+              <div className="w-8 h-8 bg-gray-700 rounded-full flex items-center justify-center hover:bg-greenpastel-500 transition-colors cursor-pointer">
                 <span className="text-sm">f</span>
               </div>
-              <div className="w-8 h-8 bg-gray-700 rounded-full flex items-center justify-center hover:bg-orange-500 transition-colors cursor-pointer">
+              <div className="w-8 h-8 bg-gray-700 rounded-full flex items-center justify-center hover:bg-greenpastel-500 transition-colors cursor-pointer">
                 <span className="text-sm">@</span>
               </div>
-              <div className="w-8 h-8 bg-gray-700 rounded-full flex items-center justify-center hover:bg-orange-500 transition-colors cursor-pointer">
+              <div className="w-8 h-8 bg-gray-700 rounded-full flex items-center justify-center hover:bg-greenpastel-500 transition-colors cursor-pointer">
                 <span className="text-sm">in</span>
               </div>
             </div>
